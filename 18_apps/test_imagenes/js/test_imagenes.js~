@@ -1,0 +1,13 @@
+$(document).ready(function() {
+
+	var image_routes_a = 
+
+	  $( "#home" ).animate({
+	    opacity: 0.25,
+	    height: "toggle"
+	  }, 5000, function() {
+	    $( "#home" ).css("background-image",'url(http://localhost/18/18_apps/test_imagenes/images/alto_d.jpg)');
+	  });
+	
+	
+});

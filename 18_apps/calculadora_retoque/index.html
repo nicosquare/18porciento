@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0"> 
+<title>Calculadora Retoque Digital</title>
+    <!-- Estilos CSS vinculados -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+	<div class="page-header">
+       <h1>Calculadora Retoque Digital</h1>
+    </div>
+
+<form id="calculadora-form" class="form-horizontal">
+    
+    <div class="form-group">
+			<label class="control-label col-xs-1" >BÁSICO</label>
+			<div class="col-xs-3">
+				<input class="p_1" type="checkbox" id="b_1" name="b_1" value=""> Aplicación de filtros <br>
+				<input class="p_1" type="checkbox" id="b_2" name="b_2" value=""> Balance de Blancos <br>
+				<input class="p_1" type="checkbox" id="b_3" name="b_3" value=""> Corrección de color <br>
+				<input class="p_1" type="checkbox" id="b_4" name="b_4" value=""> Correcciones de exposición <br>
+				<input class="p_2" type="checkbox" id="b_5" name="b_5" value=""> Blanqueamiento de sonrisa <br>
+				<input class="p_2" type="checkbox" id="b_6" name="b_6" value=""> Corrección de ojos rojos <br>
+				<input class="p_2" type="checkbox" id="b_7" name="b_7" value=""> Remocion de imperfecciones en la piel <br>
+				<input class="p_2" type="checkbox" id="b_8" name="b_8" value=""> Remocion de imperfecciones en el fondo <br>
+			</div>
+			<label class="control-label col-xs-1" >MEDIA</label>
+			<div class="col-xs-3">
+				<input class="p_3" type="checkbox" id="m_1" name="m_1" value=""> Remocion de reflejos en gafas <br>
+				<input class="p_3" type="checkbox" id="m_2" name="m_2" value=""> Resaltado de objetos especificos en la imagen <br>
+				<input class="p_3" type="checkbox" id="m_3" name="m_3" value=""> Remocion del fondo de la imagen (PNG) <br>
+				<input class="p_4" type="checkbox" id="m_4" name="m_4" value=""> Corrección de destellos de luz (Lens flare) <br>
+				<input class="p_4" type="checkbox" id="m_5" name="m_5" value=""> Emparejamiento de pelo <br>
+				<input class="p_4" type="checkbox" id="m_6" name="m_6" value=""> Remocion y cambio de color de fondo <br>
+			</div>
+			<label class="control-label col-xs-1" >ALTA</label>
+			<div class="col-xs-3">
+				<input class="p_5" type="checkbox" id="a_1" name="a_1" value=""> Cambio de color de objetos <br>
+				<input class="p_5" type="checkbox" id="a_2" name="a_2" value=""> Cambio total de fondo <br>
+				<input class="p_5" type="checkbox" id="a_3" name="a_3" value=""> Dodge and burn <br>
+				<input class="p_5" type="checkbox" id="a_4" name="a_4" value=""> Remover personas <br>
+				<input class="p_5" type="checkbox" id="a_5" name="a_5" value=""> Remocion de objetos indeseados <br>
+				<input class="p_5" type="checkbox" id="a_6" name="a_6" value=""> Retoque por frecuencias <br>
+			</div>
+	</div>
+	<HR>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Corregir tu foto te costaría: </label>
+        <div class="col-xs-1">
+            <label id="total" class="control-label col-xs-3">---</label>
+		</div>
+    </div>   
+</form>
+    
+
+</div>
+
+<!-- Js vinculados -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/calculadora-retoque.js"></script>
+</body>
+</html>
+

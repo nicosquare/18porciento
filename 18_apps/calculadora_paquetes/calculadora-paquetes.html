@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0"> 
+<title>Calculadora Paquetes</title>
+    <!-- Estilos CSS vinculados -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+	<div class="page-header">
+       <h1>Calculadora Paquetes</h1>
+    </div>
+
+<form id="calculadora-form" class="form-horizontal">
+    
+    <div class="form-group">
+			<label class="control-label col-xs-3" >Seleccione un paquete</label>
+			<div class="col-xs-9">
+				<input type="radio" id="p1" name="paquete" value="10" required> 10 Fotos <br>
+				<input type="radio" id="p2" name="paquete" value="30" required> 30 Fotos <br>
+				<input type="radio" id="p3" name="paquete" value="50" required> 50 Fotos <br>
+				<input type="radio" id="p4" name="paquete" value="100" required> 100 Fotos <br>
+				<input type="radio" id="p5" name="paquete" value="300" required> 300 Fotos <br>
+				<input type="radio" id="p6" name="paquete" value="500" required> 500 Fotos <br>
+				<input type="radio" id="p7" name="paquete" value="1000" required> 1000 Fotos <br>
+				<input type="radio" id="p8" name="paquete" value="3000" required> 3000 Fotos <br>
+			</div>
+			<label class="control-label col-xs-3">Te quedan:</label>
+			<div class="col-xs-9">
+				<label id="q-photo" name="q-photo" class="control-label col-xs-3">---</label>
+			</div>
+	</div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Cantidad Standard</label>
+        <div class="col-xs-9">
+            <input id="q-std" name="q-std" type="text" class="form-control" placeholder="Cantidad Standard">
+        </div>
+        <label class="control-label col-xs-3">Precio por foto:</label>
+        <div class="col-xs-9">
+            <label name="p-std" class="control-label col-xs-3">---</label>
+        </div>
+    </div>   
+    <div class="form-group">
+        <label class="control-label col-xs-3">Cantidad Special</label>
+        <div class="col-xs-9">
+            <input id="q-spc" name="q-spc" type="text" class="form-control" placeholder="Cantidad Special">
+        </div>
+        <label class="control-label col-xs-3">Precio por foto:</label>
+        <div class="col-xs-9">
+            <label name="p-spc" class="control-label col-xs-3">---</label>
+        </div>
+    </div>   
+    <div class="form-group">
+        <label class="control-label col-xs-3">Cantidad Premium</label>
+        <div class="col-xs-9">
+            <input id="q-prm" name="q-prm" type="text" class="form-control" placeholder="Cantidad Premium">
+        </div>
+        <label class="control-label col-xs-3">Precio por foto:</label>
+		<div class="col-xs-9">
+            <label name="p-prm" class="control-label col-xs-3">---</label>
+        </div>
+    </div> 
+    <div class="form-group">
+        <label class="control-label col-xs-3">Total</label>
+        <div class="col-xs-9">
+            <label id="total" class="control-label col-xs-3">---</label>
+		</div>
+    </div>   
+</form>
+    
+
+</div>
+
+<!-- Js vinculados -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="calculadora-paquetes.js"></script>
+</body>
+</html>
+
